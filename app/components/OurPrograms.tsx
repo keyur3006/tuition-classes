@@ -38,13 +38,14 @@ export default function Programs() {
     <section className="py-20 bg-gray-50 text-center relative overflow-hidden">
       
       {/* Heading */}
-      <h2 className="text-2xl md:text-3xl font-bold">
-        Explore <span className="text-orange-500">Our Programs</span>
-      </h2>
-      <p className="text-gray-500 mt-2 max-w-xl mx-auto text-sm">
-        From mastering tough subjects to excelling in exams, our tailored
-        approach ensures success for every student.
-      </p>
+     <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+  Explore <span className="text-orange-500">Our Programs</span>
+</h2>
+
+<p className="text-gray-600 mt-2 max-w-xl mx-auto text-sm">
+  From mastering tough subjects to excelling in exams, our tailored
+  approach ensures success for every student.
+</p>
 
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 px-6 md:px-20">
@@ -59,24 +60,25 @@ export default function Programs() {
               {item.number}
             </h3>
 
-            <h4 className="font-semibold mt-2">
-              {item.title}
-            </h4>
+           <h4 className="font-semibold mt-2 text-gray-900">
+  {item.title}
+</h4>
 
-            <p className="text-gray-500 text-sm mt-2">
-              {item.desc}
-            </p>
+<p className="text-gray-600 text-sm mt-2">
+  {item.desc}
+</p>
           </div>
         ))}
 
         {/* CTA Card */}
         <div className="bg-white p-6 rounded-xl shadow-md flex flex-col items-center justify-center text-center hover:shadow-xl transition">
-          <h4 className="font-semibold mb-2">
-            Start your journey!
-          </h4>
-          <p className="text-gray-500 text-sm mb-4">
-            Join us today to boost your skills and achieve your dream.
-          </p>
+          <h4 className="font-semibold mb-2 text-gray-900">
+  Start your journey!
+</h4>
+
+<p className="text-gray-600 text-sm mb-4">
+  Join us today to boost your skills and achieve your dream.
+</p>
 
           <button className="bg-orange-500 text-white px-5 py-2 rounded-lg hover:bg-orange-600 transition">
             Join Now

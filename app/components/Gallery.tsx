@@ -9,13 +9,13 @@ export default function Gallery() {
     <section className="py-20 bg-gray-50 text-center">
       
       {/* Heading */}
-      <h2 className="text-2xl md:text-3xl font-bold">
-        View <span className="text-orange-500">Our Gallery</span>
-      </h2>
+     <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+  View <span className="text-orange-500">Our Gallery</span>
+</h2>
 
-      <p className="text-gray-500 mt-2 text-sm max-w-xl mx-auto">
-        See our learning space and get a glimpse into our facilities & excellence.
-      </p>
+     <p className="text-gray-600 mt-2 text-sm max-w-xl mx-auto">
+  See our learning space and get a glimpse into our facilities & excellence.
+</p>
 
       {/* Main Video */}
       <div className="mt-10 px-6 md:px-20">

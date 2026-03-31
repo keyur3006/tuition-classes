@@ -34,10 +34,10 @@ export default function Achievements() {
       {/* Heading */}
       <div className="flex items-center justify-center gap-4 mb-10">
         <div className="h-[2px] w-16 bg-orange-400"></div>
-        <h2 className="text-lg md:text-xl font-semibold">
-          Trusted by our{" "}
-          <span className="text-orange-500">Tuition Centre</span> Achievements
-        </h2>
+       <h2 className="text-lg md:text-xl font-semibold text-gray-900">
+  Trusted by our{" "}
+  <span className="text-orange-500">Tuition Centre</span> Achievements
+</h2>
         <div className="h-[2px] w-16 bg-orange-400"></div>
       </div>
 
@@ -55,8 +55,12 @@ export default function Achievements() {
               {item.icon}
             </div>
 
-            <h3 className="text-2xl font-bold mt-6">{item.value}</h3>
-            <p className="text-gray-500 text-sm mt-1">{item.label}</p>
+            <h3 className="text-2xl font-bold mt-6 text-gray-900">
+  {item.value}
+</h3>
+            <p className="text-gray-600 text-sm mt-1">
+  {item.label}
+</p>
           </div>
         ))}
       </div>

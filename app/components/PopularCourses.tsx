@@ -143,9 +143,9 @@ export default function PopularCourses() {
 
   return (
     <section className="py-20 bg-gray-50 text-center relative">
-      <h2 className="text-2xl md:text-3xl font-bold">
-        Popular <span className="text-orange-500">Courses</span>
-      </h2>
+      <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+  Popular <span className="text-orange-500">Courses</span>
+</h2>
 
       {/* Tabs */}
       <div className="flex flex-wrap justify-center gap-4 mt-8">
