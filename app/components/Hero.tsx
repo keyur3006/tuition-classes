@@ -9,9 +9,12 @@ export default function Hero() {
 
       {/* NAVBAR */}
       <div className="flex justify-between items-center px-4 md:px-6 py-4 max-w-7xl mx-auto">
-        <h1 className="text-lg md:text-xl font-bold text-primary">
-          Aarna Classes
-        </h1>
+        <Link href="/" className="flex items-center gap-2">
+          <img src="/logo5.png" alt="Aarna Classes Logo" className="w-10 h-10 object-contain" />
+          <h1 className="text-lg md:text-xl font-bold text-primary">
+            Aarna Classes
+          </h1>
+        </Link>
 
         <ul className="hidden md:flex gap-6 text-gray-700">
           <li>Home</li>
@@ -81,7 +84,7 @@ export default function Hero() {
           </button>
 
           <p className="mt-3 text-sm">
-            📞 Call: 99999 99999
+            📞 Call: 95378 49416
           </p>
         </div>
 
