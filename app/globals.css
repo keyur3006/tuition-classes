@@ -3,19 +3,36 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* ✅ Tuition Theme Colors */
+  --primary: #2563EB;
+  --primary-dark: #1E40AF;
+  --secondary: #60A5FA;
+  --accent: #FBBF24;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* ✅ Custom Colors Tailwind ma use karva */
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
+/* Dark mode (optional) */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    --primary: #3B82F6;
+    --primary-dark: #1E40AF;
   }
 }
 
