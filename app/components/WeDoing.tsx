@@ -44,9 +44,9 @@ export default function Services() {
     <section className="py-20 bg-gray-50 text-center relative overflow-hidden">
       
       {/* Heading */}
-      <h2 className="text-2xl md:text-3xl font-bold">
-        What Are <span className="text-orange-500">We Doing ?</span>
-      </h2>
+    <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+  What Are <span className="text-orange-500">We Doing ?</span>
+</h2>
       <p className="text-gray-500 mt-2 max-w-xl mx-auto text-sm">
         From mastering tough subjects to excelling in exams, our tailored approach ensures success for every student.
       </p>
@@ -65,15 +65,13 @@ export default function Services() {
               {item.icon}
             </div>
 
-            {/* Title */}
-            <h3 className="font-semibold text-lg mb-2">
-              {item.title}
-            </h3>
+            <h3 className="font-semibold text-lg mb-2 text-gray-900">
+  {item.title}
+</h3>
 
-            {/* Description */}
-            <p className="text-gray-500 text-sm">
-              {item.desc}
-            </p>
+<p className="text-gray-600 text-sm">
+  {item.desc}
+</p>
           </div>
         ))}
       </div>
