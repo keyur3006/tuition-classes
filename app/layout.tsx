@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Aarna Classes",
   description: "Best Tuition Classes",
+    verification: {
+    google: "e5pqYcxZhdh-cbR6o5S0shxKHtm3DEKMtPTXu12AjZ4",
+  },
   icons: {
     icon: [
       {
